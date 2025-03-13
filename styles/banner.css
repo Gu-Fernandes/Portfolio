@@ -1,0 +1,36 @@
+.banner {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+}
+
+  .banner__sobre {
+    flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+    padding: 1em; /* espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.banner__paragrafo {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+.banner__sobre-negrito{
+    color: var(--fonte-laranja);
+}
+
+  .banner__sobre__img {
+    flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+    padding: 20px; /* Adiciona um espaçamento interno para melhor visualização */
+    text-align: center; /* Alinha a imagem ao centro */
+}
+  
+  .banner__img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
+
+.banner__paragrafo-linguagens{
+   font-size: 14px; 
+   font-weight: 600;
+   color: var(--cinza);
+}

@@ -1,0 +1,17 @@
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+
+:root{
+    --fonte-principal: "Rajdhani";
+    --fonte-laranja: #cc5d0e; 
+    --fonte-branca: #FFFFFF;
+    --cinza: #C0C0C1;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--fonte-branca);
+    background-color: #0c0c0cf3;
+}
