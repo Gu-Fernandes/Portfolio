@@ -34,3 +34,10 @@
    font-weight: 600;
    color: var(--cinza);
 }
+
+@media (max-width: 768px) {
+    .banner__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
