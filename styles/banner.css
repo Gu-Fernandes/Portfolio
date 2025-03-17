@@ -52,6 +52,8 @@
 }
 
 .botao__contato-link{
+  display: flex;
+  align-items: center;
   margin-right: 0.5em;
   padding: 0.5em;
   border-radius: 8px;
@@ -67,4 +69,5 @@
 
 .botao__contato-img{
   margin-right: 0.5em;
+
 }
