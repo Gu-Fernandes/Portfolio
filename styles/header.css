@@ -15,3 +15,9 @@
     color: var(--fonte-branca);
     font-weight: 500;
 }
+
+.header__link__links-home{
+    text-decoration: none;
+    color: var(--fonte-laranja);
+    font-weight: 500;
+}
