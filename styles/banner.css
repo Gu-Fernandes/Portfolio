@@ -1,36 +1,70 @@
 .banner {
-    display: flex; /* Ativa o Flexbox */
-    justify-content: center; /* Alinha os itens horizontalmente ao centro */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
 }
 
-  .banner__sobre {
-    flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
-    padding: 1em; /* espaçamento interno */
-    text-align: center; /* Alinha o texto ao centro */
+
+.banner__sobre {
+  flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+  padding: 1em; /* espaçamento interno */
+  text-align: left; /* Alinha o texto ao centro */
 }
 
-.banner__paragrafo {
-    text-align: left; /* Alinha o texto à esquerda */
-}
-.banner__sobre-negrito{
-    color: var(--fonte-laranja);
+.banner__sobre-nome{
+  color: var(--fonte-laranja);
+  font-weight: 700;
+  padding: 1em 0;
 }
 
-  .banner__sobre__img {
-    flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
-    padding: 20px; /* Adiciona um espaçamento interno para melhor visualização */
-    text-align: center; /* Alinha a imagem ao centro */
+.banner__sobre-profissao{
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+.banner__sobre-paragrafo{
+  font-family: 20px;
+}
+
+.banner__sobre__img {
+  flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+  padding: 1em 1em 1em 0; /* Adiciona um espaçamento interno para melhor visualização */
+  text-align: center; /* Alinha a imagem ao centro */
 }
   
-  .banner__img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px;
+.banner__img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px;
 }
 
 .banner__paragrafo-linguagens{
-   font-size: 14px; 
-   font-weight: 600;
-   color: var(--cinza);
+  font-size: 14px; 
+  font-weight: 600;
+  color: var(--cinza);
+}
+
+.contato{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.botao__contato-link{
+  margin-right: 0.5em;
+  padding: 0.5em;
+  border-radius: 8px;
+  color: var(--branco);
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #eb6709;
+}
+
+.contato__redes-botao{
+  margin: 0.4em;
+}
+
+.botao__contato-img{
+  margin-right: 0.5em;
 }
