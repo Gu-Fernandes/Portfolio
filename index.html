@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="/img/icone-img.png" type="image/png">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/banner.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>Gustavo Fernandes</title>
 </head>
 
@@ -20,7 +23,7 @@
         </div>
 
         <div class="header__link">
-            <a href="#" class="header__link__links">Home</a>
+            <a href="#" class="header__link__links-home">Home</a>
             <a href="#" class="header__link__links">Projetos</a>
             <a href="#" class="header__link__links">Sobre mim</a>
         </div>
@@ -28,14 +31,28 @@
 
     <section class="banner">
         <div class="banner__sobre">
-            <p class="banner__paragrafo">Olá! Eu sou o <b class="banner__sobre-negrito">Gustavo Fernandes</b>, desenvolvedor Front-end. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            
-            
+            <h2 class="banner__sobre-apresentacao">Olá, eu sou o</h2>
+            <h1 class="banner__sobre-nome">Gustavo Fernandes</h1>
+            <h3 class="banner__sobre-profissao">Desenvolvedor Front-end</h3>
+            <p class="banner__sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
         <div class="banner__sobre__img">
             <img src="/img/img-gustavo.png" class="banner__img">
-            <p class="banner__paragrafo-linguagens">HTML • CSS • JavaScript</p>
+            <!--<p class="banner__paragrafo-linguagens">HTML • CSS • JavaScript</p> -->
+        </div>
+    </section>
+
+    <section class="contato">
+        <div class="contato__redes">
+            <p class="contato__paragrafo">Confira minhas redes</p>
+            <a href="https://github.com/Gu-Fernandes" class="contato__redes-botao"> <img src="/img/github.png"></a>
+            <a href="https://www.linkedin.com/in/gustavo-fernandes-silva/" class="contato__redes-botao"> <img src="/img/linkedin.png"></a>
+            <a href="https://www.linkedin.com/in/gustavo-fernandes-silva/" class="contato__redes-botao"> <img src="/img/instagram.png"></a>
+        </div>
+
+        <div class="botao__contato">
+            <a href="https://api.whatsapp.com/send/?phone=5511971681742&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+seus+projetos!&type=phone_number&app_absent=0" class="botao__contato-link"> <img src="/img/wpp.png" class="botao__contato-img">Vamos conversar?</a>
         </div>
     </section>
 </body>
