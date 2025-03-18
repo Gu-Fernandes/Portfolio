@@ -1,276 +1,90 @@
 .banner {
-     text-align: center;
-     padding: 0 0.5em;
-     display: flex;
-     flex-direction: column;
-     gap: 2em;
-   display: flex; /* Ativa o Flexbox */
-   justify-content: center; /* Alinha os itens horizontalmente ao centro */
-   flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
- }
- 
- .banner__mensagem{
-     color: var(--vermelho);
- 
-     font-size: 16px;
-     font-weight: 600;
- .banner__sobre {
-   flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
-   padding: 1em; /* espaçamento interno */
-   text-align: left; /* Alinha o texto ao centro */
- }
- 
- .banner__titulo{
-     font-size: 48px;
-     font-weight: 600;
- .banner__sobre-nome{
-   color: var(--fonte-laranja);
-   font-weight: 700;
-   padding: 1em 0;
- }
- 
- .banner__texto{
-     color: var(--fonte-cinza);
-     padding: 0 14em;
-     font-size: 20px;
-     font-weight: 400;
- .banner__sobre-profissao{
-   font-weight: 600;
-   font-size: 14px;
-   margin-bottom: 0.5em;
- }
- 
- .banner__div{
-     display: flex;
-     flex-direction: column;
-     
- }
- .banner__secundario{
-     display: grid;
-     justify-content: space-evenly;
-     grid-template-columns: 280px 280px 280px 280px;
-     width: 75%;
-     gap: 2em;
-     margin: 0 8%;
-     
- }
- 
- 
- .banner__estatisticas{
-     color: var(--vermelho);
-     font-size: 60px;
-     font-weight: 600;
-     margin-top: 2em;
-     
-     
- }
- 
- .banner__estatisticas__texto{
-     color: var(--fonte-cinza);
-     font-weight: 400;
-     font-size: 16px;
- }
- 
- .banner__estatisticas__titulo{
-     padding: 1em 1em 1em 0  ;
- }
- 
- .vagas{
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-     gap: 20px;
-     padding: 150px 0 90px 0;
- 
- }
- 
- .vagas__abertas{
-     justify-content: center;
-     align-items: center;
-     color: var(--vermelho);
-     background-color: #8e242423;
-     font-size: 14px;
-     font-weight: 500;
-     padding: 0.5em;
-     border-radius: 15px;
-     width: fit-content;
-     margin: 0 auto;
- }
- 
- .vagas__titulo__talentos {
-     font-size: 36px;
-     font-weight: 600;
- }
- 
- .vagas__texto{
-     font-size: 20px;
-     font-weight: 400;
-     color: var(--fonte-cinza);
- .banner__sobre-paragrafo{
-   font-family: 20px;
- }
- 
- .setor__container{
-     display: flex;
-     flex-direction: column;
- .banner__sobre__img {
-   flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
-   padding: 1em 1em 1em 0; /* Adiciona um espaçamento interno para melhor visualização */
-   text-align: center; /* Alinha a imagem ao centro */
- }
- 
- .setor__vagas__titulo{
-     font-size: 20px;
-     font-weight: 500;
-     text-align: center;
-     margin: 3em 30em 2em 0;
- }
- 
- .setor__cargo{
-     border: 1px solid #a8a8a883;
-     padding: 2em;
-     margin: 2em 16em 2em 16em;
-     border-radius: 10px;
- }
- 
- .setor__subtitulo {
-     font-size: 18px;
-     font-weight: 500;
-     margin-bottom: 2em;
- }
- 
- .setor__texto{
-     font-size: 16px;
-     font-weight: 500;
-     color: var(--fonte-cinza);
-     display: inline-block;
-     margin-right: 2em;
- }
- 
- .feedback{
-     display: flex;
-     flex-direction: column; /* Organiza os filhos em coluna */
-     align-items: center; /* Alinha horizontalmente ao centro */
-     text-align: center;
-     margin: 2em 6em;
-     padding: 2em;
-     background-color: #8e242415;
-     border-radius: 8px;
- }
- 
- .feedback__h3{
-     color: var(--vermelho);
-     margin-bottom: 2em;
-     font-size: 14px;
-     font-weight: 600;
- }
- 
- .feedback__funcionario{
-     font-size: 36px;
-     font-weight: 500;
-     margin-bottom: 1em;
- }
- 
- .feedback__funcionario__nome{
-     font-size: 16px;
-     font-weight: 500;
-     margin: 1em 0;
- }
- 
- .feedback__funcionario__cargo{
-     font-size: 14px;
-     font-weight: 400;
-     color: var(--fonte-cinza);
-     margin-bottom: 1em;
-   
- .banner__img {
-   max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
-   height: auto; /* Mantém a proporção da imagem */
-   border-radius: 10px;
- }
- 
- .footer{
-     display: flex;
-     flex-direction: column; /* Organiza os filhos em coluna */
-     align-items: center; /* Alinha horizontalmente ao centro */
-     gap: 20px; /* Adiciona espaçamento entre os elementos filhos */
-     background-color: #F9FAFB;
- .banner__paragrafo-linguagens{
-   font-size: 14px; 
-   font-weight: 600;
-   color: var(--cinza);
- }
- 
- .footer__titulo{
-     font-size: 36px;
-     font-weight: 600;
- .contato{
-   display: flex;
-   justify-content: space-between;
-   padding: 1em;
- }
- 
- .footer__texto{
-     font-size: 20px;
-     font-weight: 400;
-     color: var(--fonte-cinza);
- .botao__contato-link{
-   display: flex;
-   align-items: center;
-   margin-right: 0.5em;
-   padding: 0.5em;
-   border-radius: 8px;
-   color: var(--branco);
-   font-weight: 600;
-   text-decoration: none;
-   background-color: #eb6709;
- }
- 
- .footer__cadastro{
-     display: flex;
-     width: 30%;
- .contato__redes-botao{
-   margin: 0.4em;
- }
- 
- .footer__input{
-     border: 1px solid #a8a8a883;
-     border-radius: 5px;
-     background-color: var(--branco);
-     padding: 0.5em;
-     flex-grow: 1; /* Permite que o input cresça para ocupar o espaço disponível */
-     margin-right: 10px; /* Adiciona um espaço entre o input e o botão */
- .botao__contato-img{
-   margin-right: 0.5em;
- }
- 
- .botao__cadastrar_email{
-     color: var(--branco);
-     background-color: var(--vermelho);
-     border: none;
-     padding: 0.8em;
-     border-radius: 8px;
- .acompanhe__meus__projetos{
-   display: flex;
-   justify-content: center;
-   margin-top: 2em;
-   font-weight: 600;
- }
- 
- .direitos__reservados{
-     font-size: 14px;
-     font-weight: 400;
-     color: var(--fonte-cinza);
-     margin-bottom: 1em;
- .projetos{
-   margin: 0 0.5em;
-   padding: 0.5em;
-   background-color: #292727;
-   border-radius: 9px;
- }
- 
- .img__funcionario{
-     border-radius: 50%;
- .projeto__img{
-   border-radius: 9px;
- }
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+}
+
+
+.banner__sobre {
+  flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+  padding: 1em; /* espaçamento interno */
+  text-align: left; /* Alinha o texto ao centro */
+}
+
+.banner__sobre-nome{
+  color: var(--fonte-laranja);
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+.banner__sobre-profissao{
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+.banner__sobre-paragrafo{
+  font-family: 20px;
+}
+
+.banner__sobre__img {
+  flex: 1; /* Permite que a div cresça e ocupe o espaço disponível */
+  padding: 1em 1em 1em 0; /* Adiciona um espaçamento interno para melhor visualização */
+  text-align: center; /* Alinha a imagem ao centro */
+}
+  
+.banner__img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px;
+}
+
+.banner__paragrafo-linguagens{
+  font-size: 14px; 
+  font-weight: 600;
+  color: var(--cinza);
+}
+
+.contato{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.botao__contato-link{
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+  padding: 0.5em;
+  border-radius: 8px;
+  color: var(--branco);
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #eb6709;
+}
+
+.contato__redes-botao{
+  margin: 0.4em;
+}
+
+.botao__contato-img{
+  margin-right: 0.5em;
+}
+
+.acompanhe__meus__projetos{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-weight: 600;
+}
+
+.projetos{
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background-color: #292727;
+  border-radius: 9px;
+}
+
+.projeto__img{
+  border-radius: 9px;
+}
