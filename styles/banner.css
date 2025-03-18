@@ -12,14 +12,15 @@
 }
 
 .banner__sobre-nome{
+  font-size: 18px;
   color: var(--fonte-laranja);
   font-weight: 700;
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 .banner__sobre-profissao{
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0.5em;
 }
 
@@ -74,17 +75,40 @@
 .acompanhe__meus__projetos{
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  margin: 2em 5em 0 5em;
   font-weight: 600;
 }
 
+.projetos__texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.6em /*espaçamento entre o texto e o titulo */
+}
+
 .projetos{
-  margin: 0 0.5em;
-  padding: 0.5em;
-  background-color: #292727;
-  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0.5em 0.5em;
+  padding: 1em 0.2em;
+  background-color: #333333;
+  gap: 1em; /*espaçamento entre a imagem e os textos, espaçamento dos blocos da section */
+  border-radius: 8px;
 }
 
 .projeto__img{
+  flex-grow: 1;
+  max-width: 100%;
   border-radius: 9px;
 }
+
+.projeto__titulo{
+  color: var(--fonte-laranja);
+  font-weight: 700;
+}
+
+.projeto__paragrafo-strong{
+  font-weight: 700;
+}
+
