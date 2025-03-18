@@ -1,7 +1,7 @@
 
 :root{
     --fonte-principal: "Rajdhani";
-    --fonte-laranja: #cc5d0e; 
+    --fonte-laranja: #e26b15; 
     --fonte-branca: #FFFFFF;
     --cinza: #c0c0c1c5;
 }
@@ -11,5 +11,5 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: var(--fonte-branca);
-    background-color: #0c0c0cf3;
+    background-color: #222222;
 }
